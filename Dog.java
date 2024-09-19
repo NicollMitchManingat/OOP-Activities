@@ -1,19 +1,14 @@
-public class Dog {
+public class Dog{
     String name;
     boolean isMale;
-    int numberofpuppies;
-    Dog[] Puppies = new Dog[10];
-    Dog Name;
-
-    public String[] showName(){
-        return Name;
-    }
+    int puppies;
+    String [] dogs = new String[5];
     
-    public int setNumOfPuppies(){
-        return numberofpuppies;
+    public String dogName(){
+        return name;
     }
 
-    public void showNumOfPuppies(){
-        System.out.println(numberofpuppies);
+    public int numOfPuppies(){
+        return puppies;
     }
 }
