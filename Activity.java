@@ -11,12 +11,13 @@ public class Activity{
         dog.dogs[3] = "Cuatro";
         dog.dogs[4] = "Cinco";
         
+        for (int i = 0; i < 5; i++){
+            System.out.println(dog.dogs[i]);
+        }
+
         System.out.println(dog.dogName());
         System.out.println("Woof! Woof!");
         System.out.println(dog.numOfPuppies());
         
-        for (int i = 0; i < 5; i++){
-            System.out.println(dog.dogs[i]);
-        }
     }
 }
