@@ -1,26 +1,30 @@
-public class Main {
+public class Activity {
     public static void main(String[] args) {
-        Dog myDog = new Dog("Batuta");
-
-        myDog.setName("Batuta");
-        System.out.println("Dog's name: " + myDog.showName());
-
-        myDog.bark();
-
-        myDog.setNumberOfPuppies(5);
-        System.out.println("Number of puppies: " + myDog.showNumberOfPuppies());
-
-        Dog puppy1 = new Dog("Juan");
-        Dog puppy2 = new Dog("Dos");
-        Dog puppy3 = new Dog("Teres");
-        Dog puppy4 = new Dog("Katro");
-        Dog puppy5 = new Dog("Tingko");
-
-        Dog[] puppies = {puppy1, puppy2, puppy3, puppy4, puppy5};
-
-        myDog.setPuppies(puppies);
-
-        System.out.println("Puppies:");
-        myDog.showPuppies();
+        // Creating an instance of Student
+        Student student1 = new Student();
+        
+         // Setting the student ID and name using the setter methods
+         student1.setStudentId(2319658);
+         student1.setName("Nik");
+ 
+         // Printing the student ID and name using the getter methods
+         System.out.println("Student ID: " + student1.getStudentId());
+         System.out.println("Name: " + student1.getName());
+ 
+         // Practical Exercise: Creating an instance of Book
+         Book book1 = new Book();
+         
+         // Setting the book attributes using the setter methods
+         book1.setBookNumber(101);
+         book1.setTitle("Diary of a Wimpy Kid");
+         book1.setAuthor("Jeff Kinney");
+         book1.setPrice(459.99);
+ 
+         // Printing the book details using the getter methods
+         System.out.println("\nBook Details:");
+         System.out.println("Book Number: " + book1.getBookNumber());
+         System.out.println("Title: " + book1.getTitle());
+         System.out.println("Author: " + book1.getAuthor());
+         System.out.println("Price: " + book1.getPrice());
     }
 }
