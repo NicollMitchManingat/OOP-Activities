@@ -1,5 +1,5 @@
 // Main class to test the hierarchy
-public class InheritanceSample {
+public class Activity {
     public static void main(String[] args) {
         // Creating Student object
         Student student = new Student("Nik", "Brgy. 1", "Information Technology", 2);
